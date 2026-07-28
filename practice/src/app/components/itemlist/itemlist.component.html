@@ -1,0 +1,19 @@
+<h1>Here is Hero's</h1>
+
+<button class="btn" (click)="showItems=true">Show Items</button>
+<div>
+
+  @for(item of items; track i; let i=$index){
+    @defer(when showItems){
+      <app-item [id]="i+1" /> <br>
+    }
+    @placeholder {
+      <div class="placeholder"></div>
+    }@loading {
+      <div class="placeholder">loading</div>
+    }@error{
+      <div class="error">error</div>
+    }
+
+  }
+</div>

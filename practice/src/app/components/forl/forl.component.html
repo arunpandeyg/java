@@ -1,0 +1,9 @@
+@for(student of students; track student.id){
+<ul>
+  <li>
+    {{ student.name }} = {{ student.id}}
+  </li>
+</ul>
+}@empty{
+<div>No data found</div>
+}
