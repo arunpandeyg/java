@@ -1,0 +1,22 @@
+{
+  "groups": [
+    {
+      "name": "jwt",
+      "type": "com.appsbs.apsbs.config.RSAKeyRecord",
+      "sourceType": "com.appsbs.apsbs.config.RSAKeyRecord"
+    }
+  ],
+  "properties": [
+    {
+      "name": "jwt.rsa-private-key",
+      "type": "java.security.interfaces.RSAPrivateKey",
+      "sourceType": "com.appsbs.apsbs.config.RSAKeyRecord"
+    },
+    {
+      "name": "jwt.rsa-public-key",
+      "type": "java.security.interfaces.RSAPublicKey",
+      "sourceType": "com.appsbs.apsbs.config.RSAKeyRecord"
+    }
+  ],
+  "hints": []
+}
