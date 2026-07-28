@@ -1,0 +1,21 @@
+{
+  "name": "jsbackend",
+  "version": "1.0.0",
+  "description": "java practice",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "Keywords": [
+    "nodejs",
+    "practice"
+  ],
+  "author": "Arun Pandey",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.1",
+    "express": "^4.18.2"
+  }
+}
